@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!-- Bilind Mustafa Salih -->
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="">
+    <meta name="house Sell" content="House Selling & Rental">
+    <meta name="author" content="Bilind Mustafa">
+    <title>Housell – House Selling & Rental </title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/mainstyle.css">
+    <link rel="icon" href="img/logo.jpg">
+    
+    
+    <style>
+        
+    </style>
+</head>
+
+<body>
+
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand " href="#"><img class="logo1" src="img/logohousell.png"></a>
+            <a class="navbar-brand " href="#">HOME</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle mx-1" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">LISTINGS </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" href="#">For Sale Property</a></li>
+                            <li><a class="dropdown-item" href="#">For Rent Property</a></li>
+                            <li><a class="dropdown-item" href="#">Single Property</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle mx-1" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">PROPERTIES BY LOCATION</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" href="#">Duhok</a></li>
+                            <li><a class="dropdown-item" href="#">Hawler</a></li>
+                            <li><a class="dropdown-item" href="#">Any City</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle mx-1" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">BLOG  </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" href="#">Single Post</a></li>
+                            <li><a class="dropdown-item" href="#">Category</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle mx-1" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> PAGE</a>
+                        <ul class="dropdown-menu " aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" href="#">Agent</a></li>
+                            <li><a class="dropdown-item" href="#">PLANS AND PRICING</a></li>
+                            <li><a class="dropdown-item" href="#">About </a></li>
+                            <li><a class="dropdown-item" href="#">CONTACT </a></li>
+                        </ul>
+                    </li>
+                    <a class="nav-link mx-1" href="#">SUBMIT PROPERTY</a>
+                </ul>
+            
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success fa fa-search" type="submit"></button>
+                </form>
+
+            </div>
+        </div>
+</nav>
+<!--cover 1-->
+<section class="pt-5 pb-1 mt-0 align-items-center d-flex bg-dark" style="min-height: 100vh;width: 100%; background-size: cover; background-image: url(img/housell-0.jpg);">
+        <div class="container">
+            <div class="row  align-items-center d-flex  h-100  gx-4 justify-content-center">
+                <div class="col-sm-12 col-md-6  ">
+                    <h1 class="display-4  text-light  mb-2 mt-5"><strong>Find Your Property</strong> </h1>
+                    <p class="lead  text-light mb-3">
+                        Housell is a real estate website that gives<br> you about houses for rent or sell, <br>apartments f or rent or sell and much more.</p>
+                    <div class="btn-container-wrapper p-relative d-block  zindex-1">
+                        <a class="btn btn-link btn-lg   mt-md-3 mb-4 scroll align-self-center text-light" href="#section-1">
+                            <button type="button" class="btn btn-primary input fs-5 text">
+                           Read More</button>
+
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 ff "> <select class="input-sm form-select-lg mb-3  fs-5 text sel-" aria-label=".form-select-lg example">
+                    <option selected>CHOSE HOUSE SCOPE</option>
+                    <option value="1">Rent</option>
+                    <option value="2">Sale</option>
+                  </select>
+                    <br>
+                    <select class="input-sm form-select-lg mb-3  fs-5 text sel-" aria-label=".form-select-sm example">
+                    <option selected>CHOOSE HOUSE TYPE</option>
+                    <option value="1">Apartment</option>
+                    <option value="2">Duplex</option>
+                    <option value="3">Penthouse</option>
+                    <option value="3">Villa</option>
+                  </select><br>
+                    <input type="text" class="input-sm form-select-lg mb-3  fs-5 text sel-" placeholder="Search house"><br>
+                    <button class="btn btn-primary input fs-5 text sel-" type="submit">
+                        Find Now
+                      </button>
+                </div>
+            </div>
+        </div>
+</section>
+<!--Listing-->
+<section class="pt-5 pb-5">
+        <div class="cards  text-dark">
+            <div class="cards-overlay">
+                <div class="container">
+                    <div class="row d-flex equal">
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 mb-4">
+                            <div class="card h-70 ">
+                                <div class="card-img-top">
+                                    <img src="img/house-for-sale.jpg" class="img-fluid" alt="house for sale">
+                                </div>
+                                <div class="card-body">
+
+                                    <h2 class="card-title" style="font-size: 18px;color: #252525;text-align: center;font-family:Montserrat;font-weight:700;font-style:normal">Sale property
+                                    </h2>
+                                    <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_10 vc_sep_border_width_2 vc_sep_pos_align_center vc_separator_no_text"><span class="vc_sep_holder vc_sep_holder_l"><span style="border-color:#1abb9c;" class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span style="border-color:#1abb9c;" class="vc_sep_line"></span></span>
+                                    </div>
+                                    <p class="card-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 mb-4">
+                            <div class="card h-70 ">
+                                <div class="card-img-top">
+                                    <img src="img/house-sold-2.jpg" class="img-fluid" alt="house for sale">
+                                </div>
+                                <div class="card-body">
+
+                                    <h2 class="card-title" style="font-size: 18px;color: #252525;text-align: center;font-family:Montserrat;font-weight:700;font-style:normal">Buy property
+
+                                    </h2>
+                                    <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_10 vc_sep_border_width_2 vc_sep_pos_align_center vc_separator_no_text"><span class="vc_sep_holder vc_sep_holder_l"><span style="border-color:#1abb9c;" class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span style="border-color:#1abb9c;" class="vc_sep_line"></span></span>
+                                    </div>
+                                    <p class="card-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 mb-4">
+                            <div class="card h-70 ">
+                                <div class="card-img-top">
+                                    <img src="img/house-rent.jpg" class="img-fluid" alt="house for sale">
+                                </div>
+                                <div class="card-body">
+
+                                    <h2 class="card-title" style="font-size: 18px;color: #252525;text-align: center;font-family:Montserrat;font-weight:700;font-style:normal">Rent property
+                                    </h2>
+                                    <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_10 vc_sep_border_width_2 vc_sep_pos_align_center vc_separator_no_text"><span class="vc_sep_holder vc_sep_holder_l"><span style="border-color:#1abb9c;" class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span style="border-color:#1abb9c;" class="vc_sep_line"></span></span>
+                                    </div>
+                                    <p class="card-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+<!--Cover 2-->
+ <section class="pt-5 pb-5 mt-0 align-items-end text-white align-items-md-center d-flex flex-column bg-dark" style="min-height: 60vh; background-size: cover;background-image: url(img/cover-1.jpg);">
+        <div class="container">
+
+            <div class="row justify-content-center  d-flex text-center mt-5">
+                <div class="col-md-4 col-feature">
+                    <div class=" rounded-circle justify-center   d-inline-block p-4 mb-4">
+                        <img width="54" height="70" src="img/Happy-Clients.png" class="" alt="" > </div>
+                    <h2 style="font-size: 20px;color: #ffffff;text-align: center;font-family:Montserrat;font-weight:700;font-style:normal" class="vc_custom_heading wpb_animate_when_almost_visible wpb_bounceIn bounceIn wpb_start_animation animated">Happy Clients</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse cursus erat sed sem sagittis cursus.</p>
+
+                </div>
+                <div class="col-md-4 col-feature">
+                    <div class=" rounded-circle justify-center   d-inline-block p-4 mb-4">
+                        <img width="71" height="70" src="img/Custom-Search.png" class="" alt="" > </div>
+                    <h2 style="font-size: 20px;color: #ffffff;text-align: center;font-family:Montserrat;font-weight:700;font-style:normal" class="vc_custom_heading wpb_animate_when_almost_visible wpb_bounceIn bounceIn wpb_start_animation animated">Custom Search
+                    </h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse cursus erat sed sem sagittis cursus.</p>
+
+                    </p>
+                </div>
+                <div class="col-md-4 col-feature">
+                    <div class=" rounded-circle justify-center   d-inline-block p-4 mb-4">
+                        <img width="54" height="70" src="img/Best-Time.png" class="" alt="">
+                    </div>
+                    <h2 style="font-size: 20px;color: #ffffff;text-align: center;font-family:Montserrat;font-weight:700;font-style:normal" class="vc_custom_heading wpb_animate_when_almost_visible wpb_bounceIn bounceIn wpb_start_animation animated">Best Time
+                    </h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse cursus erat sed sem sagittis cursus.</p>
+
+                </div>
+            </div>
+        </div>
+</section>
+<!--Rent-->
+<section class="pt-5 pb-5">
+        <div class="row justify-content-center">
+            <div class="col col-md-8 text-center">
+                <h1 class="section-title dark_title"> LATEST PROPERTIES FOR RENT</h1>
+                <p class="text-h3 section-subtitle dark_subtitle" style="color: #b3b7b6;">Duis aute irure dolor in reprehenderit in voluptate velit esse <br>cillum dolore eu fugiat nulla pariatur</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4  ">
+                    <div class="card cardss hover-shadow" style="width: 22rem;border-style: none;">
+                        <a href=" index.html "><img src="img/rent-1.jpg " ass="card-img-top " alt="rent house" style="height: 350px;width: 350px;border:5px solid white;"> </a>
+                        <div class="card-img-overlay ">
+                            <h5 class="card-title bg-info text-white w-25 p-1 text-center ">Rent</h5>
+                        </div>
+                        <div class="card-body bg-light rounded-start">
+                            <p class=" card-text text-center ">Luxury Modern Toulouse Apartment</p>
+                            <p class="card-text text-center"><a href="index.html " class=" " style="color: #5DADE2;text-decoration: none;font-weight: bolder; ">For Rent</a></p>
+                            <p class="card-text text-center ">120$ Per Day</p>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col-md-4 ">
+                    <div class="card cardss hover-shadow" style="width: 22rem;border-style: none;">
+                        <a href=" index.html "><img src="img/rent-2.jpg " ass="card-img-top " alt="rent house" style="height: 350px;width: 350px;border:5px solid white;"> </a>
+                        <div class="card-img-overlay ">
+                            <h5 class="card-title bg-info text-white w-25 p-1 text-center ">Rent</h5>
+                        </div>
+                        <div class="card-body bg-light rounded-start">
+                            <p class=" card-text text-center ">Dreamy Downtown Penthouse in Lyon
+
+                            </p>
+                            <p class="card-text text-center"><a href="index.html " class=" " style="color: #5DADE2;text-decoration: none;font-weight: bolder; ">For Rent</a></p>
+                            <p class="card-text text-center ">300$ Per Day</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="card cardss hover-shadow" style="width: 22rem;border-style: none;">
+                        <a href=" index.html "><img src="img/rent-3.jpg" ass="card-img-top " alt="rent house" style="height: 350px;width: 350px;border:5px solid white;"> </a>
+                        <div class="card-img-overlay ">
+                            <h5 class="card-title bg-info text-white w-25 p-1 text-center ">Rent</h5>
+                        </div>
+                        <div class="card-body bg-light rounded-start">
+                            <p class=" card-text text-center ">Villa for Numerous Families in Marseille
+                            </p>
+                            <p class="card-text text-center"><a href="index.html " class=" " style="color: #5DADE2;text-decoration: none;font-weight: bolder; ">For Rent</a></p>
+                            <p class="card-text text-center ">115$ Per Day</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="card cardss hover-shadow mt-4" style="width: 22rem;border-style: none;">
+                        <div class="card-img-overlay ">
+                            <h5 class="card-title bg-info text-white w-25 p-1 text-center ">Rent</h5>
+                        </div>
+                        <a href=" index.html "><img src="img/rent-4.jpg " ass="card-img-top " alt="rent house" style="height: 350px;width: 350px;border:5px solid white;"> </a>
+                        <div class="card-img-overlay ">
+                            <h5 class="card-title bg-info text-white w-25 p-1 text-center ">Rent</h5>
+                        </div>
+                        <div class="card-body bg-light rounded-start">
+                            <p class=" card-text text-center ">Cozy apartment in Paris
+                            </p>
+                            <p class="card-text text-center"><a href="index.html " class=" " style="color: #5DADE2;text-decoration: none;font-weight: bolder; ">For Rent</a></p>
+                            <p class="card-text text-center ">110$ Per Day</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="card cardss hover-shadow mt-4" style="width: 22rem;border-style: none;">
+                        <a href=" index.html "><img src="img/rent-5.jpg " ass="card-img-top " alt="rent house" style="height: 350px;width: 350px;border:5px solid white;"> </a>
+                        <div class="card-img-overlay ">
+                            <h5 class="card-title bg-info text-white w-25 p-1 text-center ">Rent</h5>
+                        </div>
+                        <div class="card-body bg-light rounded-start">
+                            <p class=" card-text text-center ">Nearby Piazza Strasbourg Penthouse
+                            </p>
+                            <p class="card-text text-center"><a href="index.html " class=" " style="color: #5DADE2;text-decoration: none;font-weight: bolder; ">For Rent</a></p>
+                            <p class="card-text text-center ">450$ Per Day</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-md-4 ">
+                   <div class="card cardss hover-shadow mt-4" style="width: 22rem;border-style: none;">
+                        <a href=" index.html "><img src="img/rent-6.jpg " ass="card-img-top " alt="rent house" style="height: 350px;width: 350px;border:5px solid white;"> </a>
+                        <div class="card-img-overlay ">
+                            <h5 class="card-title bg-info text-white w-25 p-1 text-center ">Rent</h5>
+                        </div>
+                        <div class="card-body bg-light rounded-start">
+                            <p class=" card-text text-center ">Welcome to 301 Rd Marseille
+                            </p>
+                            <p class="card-text text-center"><a href="index.html " class=" " style="color: #5DADE2;text-decoration: none;font-weight: bolder; ">For Rent</a></p>
+                            <p class="card-text text-center ">210$ Per Day</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+<!--cover 3-->
+<section class="pt-5 pb-5 mt-0 align-items-center d-flex bg-dark " style="min-height: 30vh; background-size: cover; background-image: url(img/cover-2.jpg); ">
+        <div class="container-fluid ">
+            <div class="container">
+
+                <div class="row justify-content-center  d-flex text-center mt-5">
+                    <div class="col-md-3 col-feature">
+                        <div class=" rounded-circle justify-center   d-inline-block p-4 mb-4">
+                            <img width="74" height="90" src="img/cover-3-log-1.png" class="" alt="" > </div>
+                        <h1 style="color: #ffffff;text-align: center;font-family:Montserrat;font-weight:700;font-style:normal" >524</h1>  
+                              <p style="color: white;font-family:Montserrat;font-weight:700;">Listings For Rent
+                        </p>
+                    </div>
+                    <div class="col-md-3 col-feature">
+                        <div class=" rounded-circle justify-center   d-inline-block p-4 mb-4">
+                            <img width="74" height="90" src="img/cover-3-log-2.png" class="" alt="" > </div>
+                        <h1 style="color: #ffffff;text-align: center;font-family:Montserrat;font-weight:700;font-style:normal" >352
+                        </h1>
+                        <p style="color: white;font-family:Montserrat;font-weight:700;">Listings For Sale </p>
+    
+                        </p>
+                    </div>
+                    <div class="col-md-3 col-feature">
+                        <div class=" rounded-circle justify-center   d-inline-block p-4 mb-4">
+                            <img width="74" height="90" src="img/cover-3-log-3.png" class="" alt="" >
+                        </div>
+                        <h1 style="color: #ffffff;text-align: center;font-family:Montserrat;font-weight:700;font-style:normal">14
+                        </h1>
+                        <p style="color: white;font-family:Montserrat;font-weight:700;">Agents </p>
+    
+                    </div>
+                    <div class="col-md-3 col-feature">
+                        <div class=" rounded-circle justify-center   d-inline-block p-4 mb-4">
+                            <img width="74" height="90" src="img/cover-3-log-4.png" class="" alt="">
+                        </div>
+                        <h1 style="color: #ffffff;text-align: center;font-family:Montserrat;font-weight:700;font-style:normal" >876</h1>
+                        <p style="color: white;font-family:Montserrat;font-weight:700;">Happy Costomer</p>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+<!--Sale-->
+<section class="pt-5 pb-5">
+    <div class="row justify-content-center">
+        <div class="col col-md-8 text-center">
+            <h1 class="section-title dark_title"> LATEST PROPERTIES FOR SALE
+            </h1>
+            <p class="text-h3 section-subtitle dark_subtitle" style="color: #b3b7b6;">Duis aute irure dolor in reprehenderit in voluptate velit esse <br>cillum dolore eu fugiat nulla pariatur
+            </p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-4  ">
+                <div class="card cardss hover-shadow" style="width: 22rem;border-style: none;">
+                    <a href=" index.html "><img src="img/sale-1.jpg " ass="card-img-top " alt="rent house" style="height: 350px;width: 350px;border:5px solid white;"> </a>
+                    <div class="card-img-overlay ">
+                        <h5 class="card-title  text-white w-25 p-1 text-center " style="background-color:#7FE25D;">Sale</h5>
+                    </div>
+                    <div class="card-body bg-light rounded-start">
+                        <p class=" card-text text-center ">Duplex for Sale in Lyon
+                        </p>
+                        <p class="card-text text-center"><a href="index.html " class=" " style="color: #5DADE2;text-decoration: none;font-weight: bolder; ">For Sale</a></p>
+                        <p class="card-text text-center ">120.000$ for sell
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col-md-4 ">
+                <div class="card cardss hover-shadow" style="width: 22rem;border-style: none;">
+                    <a href=" index.html "><img src="img/sale-2.jpg " ass="card-img-top " alt="rent house" style="height: 350px;width: 350px;border:5px solid white;"> </a>
+                    <div class="card-img-overlay ">
+                        <h5 class="card-title  text-white w-25 p-1 text-center " style="background-color:#7FE25D;">Sale</h5>
+                    </div>
+                    <div class="card-body bg-light rounded-start">
+                        <p class=" card-text text-center ">Duplex for sale in Toulouse
+                        </p>
+                        <p class="card-text text-center"><a href="index.html " class=" " style="color: #5DADE2;text-decoration: none;font-weight: bolder; ">For Sale</a></p>
+                        <p class="card-text text-center ">320.000$ for sell
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 ">
+                <div class="card cardss hover-shadow" style="width: 22rem;border-style: none;">
+                    <a href=" index.html "><img src="img/sale-3.jpg" ass="card-img-top " alt="rent house" style="height: 350px;width: 350px;border:5px solid white;"> </a>
+                    <div class="card-img-overlay ">
+                        <h5 class="card-title  text-white w-25 p-1 text-center " style="background-color:#7FE25D;">Sale</h5>
+                    </div>
+                    <div class="card-body bg-light rounded-start">
+                        <p class=" card-text text-center ">Huge Lyon Apartment + Parking
+                        </p>
+                        <p class="card-text text-center"><a href="index.html " class=" " style="color: #5DADE2;text-decoration: none;font-weight: bolder; ">For Rent</a></p>
+                        <p class="card-text text-center ">820.000$ for sell</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 ">
+                <div class="card cardss hover-shadow mt-4" style="width: 22rem;border-style: none;">
+                    <div class="card-img-overlay ">
+                        <h5 class="card-title  text-white w-25 p-1 text-center " style="background-color:#7FE25D;">Sale</h5>
+                    </div>
+                    <a href=" index.html "><img src="img/sale-4.jpg " ass="card-img-top " alt="rent house" style="height: 350px;width: 350px;border:5px solid white;"> </a>
+                    <div class="card-img-overlay ">
+                        <h5 class="card-title  text-white w-25 p-1 text-center " style="background-color:#7FE25D;">Sale</h5>
+                    </div>
+                    <div class="card-body bg-light rounded-start">
+                        <p class=" card-text text-center ">Toulouse 23th Avenue
+                        </p>
+                        <p class="card-text text-center"><a href="index.html " class=" " style="color: #5DADE2;text-decoration: none;font-weight: bolder; ">For Sale</a></p>
+                        <p class="card-text text-center ">190.000$ for sell
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 ">
+                <div class="card cardss hover-shadow mt-4" style="width: 22rem;border-style: none;">
+                    <a href=" index.html "><img src="img/sale-5.jpg " ass="card-img-top " alt="rent house" style="height: 350px;width: 350px;border:5px solid white;"> </a>
+                    <div class="card-img-overlay ">
+                        <h5 class="card-title  text-white w-25 p-1 text-center " style="background-color:#7FE25D;">Sale</h5>
+                    </div>
+                    <div class="card-body bg-light rounded-start">
+                        <p class=" card-text text-center ">Family Penthouse For Sale in Marseille
+                        </p>
+                        <p class="card-text text-center"><a href="index.html " class=" " style="color: #5DADE2;text-decoration: none;font-weight: bolder; ">For Sale</a></p>
+                        <p class="card-text text-center ">320.000$ for sell
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-md-4 ">
+               <div class="card cardss hover-shadow mt-4" style="width: 22rem;border-style: none;">
+                    <a href=" index.html "><img src="img/sale-6.jpg " ass="card-img-top " alt="rent house" style="height: 350px;width: 350px;border:5px solid white;"> </a>
+                    <div class="card-img-overlay ">
+                        <h5 class="card-title  text-white w-25 p-1 text-center " style="background-color:#7FE25D;">Sale</h5>
+                    </div>
+                    <div class="card-body bg-light rounded-start">
+                        <p class=" card-text text-center ">Villa Lima Street in Montpellier
+                        </p>
+                        <p class="card-text text-center"><a href="index.html " class=" " style="color: #5DADE2;text-decoration: none;font-weight: bolder; ">For Sale</a></p>
+                        <p class="card-text text-center ">230.000$ for sell
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Video-->
+<section class="pt-5 pb-5 ">
+        <div class="container ">
+            <div class="row align-items-center justify-content-between "> 
+                <div class="col-12 col-md-4 ">
+                    <h1 class="mb-3 mt-5 fw-bold ">Westwood Video Tour
+                    </h1>
+                    <p class="lead " style="color: #b3b7b6;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do diam eiusmod tempor
+                        magna aliqua sed ut enim ad minim veniam, quis nostrud.</p>   
+                </div>
+                <div class="col-12 col-md-7 mt-4 mt-md-0 ">
+                    <div class="ratio ratio-16x9 shadow ">
+                        <iframe width="853" height="480" src="https://www.youtube.com/embed/CyAIZGvQm-4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+<!--Agent-->
+<section class="bg-white text-dark pt-5 pb-5">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col">
+                <h3 class=" mb-4 "> MEET OUR AGENTS</h3><p class="text-h3 " style="color: #b3b7b6;">Duis aute irure dolor in reprehenderit in voluptate velit esse<br>
+                    cillum dolore eu fugiat nulla pariatur.
+                </p>
+            </div>
+          </div>
+          <div class="row text-center mt-md-5">
+            <div class="col-md-3 mb-5 col-12">
+              <img alt="image" class="img-fluid mb-4 mt-3 rounded shadow"
+                src="img/agent-1.png">
+              <h3><strong>David Smith</strong></h3>
+              <p>Director</p>
+              <a href="mailto:Email@email.com" style="color:black; text-decoration:none;">  <p>Email@email.com</p></a>
+            <p>+1 456 789 369</p>
+              <div class="mb-1 mt-2 me-3 align-self-center pt-3 d-block">
+                <a href="#" role="button" class="  p-1 m-2">
+                    <i class="fa fa-facebook-square fa-md text-primary" aria-hidden="true"></i>
+                </a>
+                <a href="#" role="button" class="  p-1 m-2">
+                    <i class="fa fa-twitter-square fa-md  text-primary" aria-hidden="true"></i>
+                </a>
+                <a href="#" role="button" class="  p-1 m-2">
+                    <i class="fa fa-linkedin fa-md text-primary" aria-hidden="true"></i>
+                </a>
+                <a href="#" role="button" class="  p-1 m-2">
+                    <i class="fa fa-vimeo fa-md  text-dark" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3 mb-5 col-12">
+              <img alt="image" class="img-fluid mb-4 mt-3 rounded shadow"
+                src="img/agent-2.png">
+              <h3><strong>Timothy Peterson</strong></h3>
+              <p>Buying Agent</p>
+              <a href="mailto:pedra@connection.tld" style="color:black; text-decoration:none;">  <p>pedra@connection.tld</p></a>
+              <p>+1 456 789 369</p>
+              <div class="mb-1 mt-2 me-3 align-self-center pt-3 d-block">
+                <a href="#" role="button" class="  p-1 m-2">
+                    <i class="fa fa-facebook-square fa-md text-primary" aria-hidden="true"></i>
+                </a>
+                <a href="#" role="button" class="  p-1 m-2">
+                    <i class="fa fa-twitter-square fa-md  text-primary" aria-hidden="true"></i>
+                </a>
+                <a href="#" role="button" class="  p-1 m-2">
+                    <i class="fa fa-linkedin fa-md text-primary" aria-hidden="true"></i>
+                </a>
+                <a href="#" role="button" class="  p-1 m-2">
+                    <i class="fa fa-vimeo fa-md  text-dark" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3 mb-5 col-12">
+              <img alt="image" class="img-fluid mb-4 mt-3 rounded shadow"
+                src="img/agent-3.png">
+              <h3><strong>Sarah Parker</strong></h3>
+              <p>Selling Agent</p>
+              <a href="mailto:sarah@connection.tld" style="color:black; text-decoration:none;">  <p>sarah@connection.tld</p></a>
+              <p>+1 456 789 369</p>
+              <div class="mb-1 mt-2 me-3 align-self-center pt-3 d-block">
+                <a href="#" role="button" class="  p-1 m-2">
+                    <i class="fa fa-facebook-square fa-md text-primary" aria-hidden="true"></i>
+                </a>
+                <a href="#" role="button" class="  p-1 m-2">
+                    <i class="fa fa-twitter-square fa-md  text-primary" aria-hidden="true"></i>
+                </a>
+                <a href="#" role="button" class="  p-1 m-2">
+                    <i class="fa fa-linkedin fa-md text-primary" aria-hidden="true"></i>
+                </a>
+                <a href="#" role="button" class="  p-1 m-2">
+                    <i class="fa fa-vimeo fa-md  text-dark" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              <img alt="image" class="img-fluid mb-4 mt-3 rounded shadow"
+                src="img/agent-4.png">
+              <h3><strong>Dwayne Park</strong></h3>
+              <p>Senior Agent</p>
+              <a href="mailto:pedra@connection.tld" style="color:black; text-decoration:none;">  <p>lucia@connection.tld</p></a>
+              <p>+1 456 789 369</p>
+              <div class="mb-1 mt-2 me-3 align-self-center pt-3 d-block">
+                <a href="#" role="button" class="  p-1 m-2">
+                    <i class="fa fa-facebook-square fa-md text-primary" aria-hidden="true"></i>
+                </a>
+                <a href="#" role="button" class="  p-1 m-2">
+                    <i class="fa fa-twitter-square fa-md  text-primary" aria-hidden="true"></i>
+                </a>
+                <a href="#" role="button" class="  p-1 m-2">
+                    <i class="fa fa-linkedin fa-md text-primary" aria-hidden="true"></i>
+                </a>
+                <a href="#" role="button" class="  p-1 m-2">
+                    <i class="fa fa-vimeo fa-md  text-dark" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+</section>
+<!--cover 4-->
+<section class="pt-5 pb-5 mt-0 align-items-end align-items-md-center d-flex bg-dark" style="min-height: 60vh; background-size: cover; background-image: url(img/cover-3.jpg);">
+<div class="container-fluid d-flex h-100">
+  <div
+    class="row  justify-content-center w-100 align-items-sm-end align-items-md-center d-flex text-center h-100">
+    <div class="col-12 col-md-8  h-50 ">
+      <h1 class="   text-light mb-2 mt-5"><strong>BOOK YOUR APPARTMENT OR HOUSE
+    </strong> </h1>
+    <h1 class="   text-light mb-2 mt-5"><strong>CALL US ON : +0123 456 789
+    </strong> </h1>
+    <br>
+      <p>
+        <a href="#" class="btn btn-warning btn-lg  ">Submit Here
+            &gt;</a>
+      </p>
+    </div>
+  </div>
+</div>
+</section>
+<!--Last News-->
+<section class="pt-5 pb-5">
+                <div class="cards  text-dark">
+                    <div class="cards-overlay">
+                        <div class="container"> 
+                            <div class="row justify-content-center ">
+                                 <div class="col col-md-8 text-center ">
+                                    <h1> OUR LATEST NEWS</h1>
+                                    <p class="text-h3 " style="color: #b3b7b6;">Duis aute irure dolor in reprehenderit in voluptate velit esse<br>
+                                    cillum dolore eu fugiat nulla pariatur. </p>
+                                 </div>
+                            </div>
+                            <div class="row d-flex equal">
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 mb-4 ">
+                                    
+                                    <div class="card h-80 ">
+                                        <div class="card-img-top">
+                                            <img src="img/last-n-1.jpg" class="img-fluid" alt="house for sale">
+                                        </div>
+                                        <div class="card-body border border-info shadow-0">
+        
+                                            <h2 class="card-title" style="font-size: 18px;color: #252525;text-align: center;font-family:Montserrat;font-weight:700;font-style:normal">Tips For Successfully Renting Out
+                                            </h2>
+                                            <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_10 vc_sep_border_width_2 vc_sep_pos_align_center vc_separator_no_text"><span class="vc_sep_holder vc_sep_holder_l"><span style="border-color:#1abb9c;" class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span style="border-color:#1abb9c;" class="vc_sep_line"></span></span>
+                                            </div>
+                                            <p class="card-text text-sm-center" style="color: #C9CAC7;">Trying to catch up with every new social network? Do you find yourself juggling with copy and images to make sure to share at least</p>
+                                            <a href="#" class="btn w-100 btn-lg " style="color: white; background-color:#75AC20;">
+                                                 Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 mb-4 ">
+                                    <div class="card h-80 ">
+                                        <div class="card-img-top">
+                                            <img src="img/last-n-2.jpg" class="img-fluid" alt="house for sale">
+                                        </div>
+                                        <div class="card-body border border-info shadow-0">
+                                            <h2 class="card-title" style="font-size: 18px;color: #252525;text-align: center;font-family:Montserrat;font-weight:700;font-style:normal">Should You Buy A House Or Rent?
+                                            </h2>
+                                            <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_10 vc_sep_border_width_2 vc_sep_pos_align_center vc_separator_no_text"><span class="vc_sep_holder vc_sep_holder_l"><span style="border-color:#1abb9c;" class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span style="border-color:#1abb9c;" class="vc_sep_line"></span></span>
+                                            </div>
+                                            <p class="card-text text-sm-center" style="color: #C9CAC7;">Trying to catch up with every new social network? Do you find yourself juggling with copy and images to make sure to share at least</p>
+                                            <a href="#" class="btn w-100 btn-lg " style="color: white; background-color:#75AC20;">
+                                                 Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 mb-4 ">
+                                    <div class="card h-80 ">
+                                        <div class="card-img-top">
+                                            <img src="img/last-n-3.jpg" class="img-fluid" alt="house for sale">
+                                        </div>
+                                        <div class="card-body border border-info shadow-0">
+        
+                                            <h2 class="card-title" style="font-size: 18px;color: #252525;text-align: center;font-family:Montserrat;font-weight:700;font-style:normal">A Guide to Property Management
+                                            </h2>
+                                            <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_10 vc_sep_border_width_2 vc_sep_pos_align_center vc_separator_no_text"><span class="vc_sep_holder vc_sep_holder_l"><span style="border-color:#1abb9c;" class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span style="border-color:#1abb9c;" class="vc_sep_line"></span></span>
+                                            </div>
+                                            <p class="card-text text-sm-center" style="color: #C9CAC7;">Trying to catch up with every new social network? Do you find yourself juggling with copy and images to make sure to share at least</p>
+                                            <a href="#" class="btn w-100 btn-lg " style="color: white; background-color:#75AC20;">
+                                                 Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+</section>
+<!--cover5 -->
+<section class="pt-5 pb-5 mt-0 align-items-center d-flex bg-dark " style="min-height: 35vh; background-size: cover; background-image: url(img/cover-5.jpg); ">
+        <div class="container ">
+                <div class="row ">
+                    <div class="col-12   col-sm-12 col-md-2 col-lg-2 col-xl-2">
+                    <div class=" rounded-circle justify-center   d-inline-block p-4 mb-4">
+                        <img width="54" height="70" src="img/cover-5-log-1.png" class="" alt="">
+                     </div>
+                 </div>
+                    <div class="col-12   col-sm-12 col-md-2 col-lg-2 col-xl-2 ">
+                        <div class=" rounded-circle justify-center   d-inline-block p-4 mb-4">
+                            <img width="54" height="70" src="img/cover-5-log-2.png" class="" alt="">
+                         </div>
+                    </div>
+                    <div class="col-12   col-sm-12 col-md-2 col-lg-2 col-xl-2">
+                        <div class=" rounded-circle justify-center   d-inline-block p-4 mb-4">
+                            <img width="54" height="70" src="img/cover-5-log-3.png" class="" alt="">
+                         </div>
+                    </div>
+                    <div class="col-12   col-sm-12 col-md-2 col-lg-2 col-xl-2">
+                        <div class=" rounded-circle justify-center   d-inline-block p-4 mb-4">
+                            <img width="54" height="70" src="img/cover-5-log-4.png" class="" alt="">
+                         </div>
+                    </div>
+                    <div class="col-12   col-sm-12 col-md-2 col-lg-2 col-xl-2">
+                        <div class=" rounded-circle justify-center   d-inline-block p-4 mb-4">
+                            <img width="54" height="70" src="img/cover-5-log-5.png" class="" alt="">
+                         </div>
+                    </div>
+                    <div class="col-12   col-sm-12 col-md-2 col-lg-2 col-xl-2">
+                        <div class=" rounded-circle justify-center   d-inline-block p-4 mb-4">
+                            <img width="54" height="70" src="img/cover-5-log-6.png" class="" alt="">
+                         </div>
+                    </div>
+                </div>
+        </div>
+</section>
+<!-- Opinion -->
+<section class="pt-5 pb-5" style="">
+    <div class="container  ">
+        <div class="row justify-content-center ">
+            <div class="col col-md-8 text-center ">
+               <h1> WE CARE ABOUT YOUR OPINION
+            </h1>
+               <p class="text-h3 ">Duis aute irure dolor in reprehenderit in voluptate velit esse<br>
+               cillum dolore eu fugiat nulla pariatur. </p>
+            </div>
+       </div>
+      <div class="row   justify-content-center header-h100  d-flex  ">
+        <div
+          class="col-md-4   align-self-center text-center card p-5   text-dark pt-4 pb-4">
+          <img class="rounded-circle   align-self-center  img-fluid  "
+            style="max-width:150px;"
+            src="img/agent-1.png">
+          <blockquote class="blockquote blockquote-reverse mt-5">
+            <p>"Sed ut perspiciatis unde iste natus error sit voluptatem doloremque laudantium totam aperiam, ea
+                que ipsa quae ab inventore veritatis et quasi."</p>
+            <p style="color:#D00F0F;"><strong>Brian Bronson</strong></p>
+              <h5 style="color: #17CBC3;">Developer</h5>
+          </blockquote>
+        </div>
+        <div
+          class="col-md-4   align-self-center text-center card p-5   text-dark pt-4 pb-4">
+          <img class="rounded-circle   align-self-center  img-fluid  "
+            style="max-width:150px;"
+            src="img/agent-2.png">
+            <blockquote class="blockquote blockquote-reverse mt-5">
+              <p>"Sed ut perspiciatis unde iste natus error sit voluptatem doloremque laudantium totam aperiam, ea
+                  que ipsa quae ab inventore veritatis et quasi."</p>
+              <p style="color:#D00F0F;"><strong>Tom Ariston</strong></p>
+                <h5 style="color: #17CBC3;">Company director</h5>
+            </blockquote>
+        </div>
+        <div
+          class="col-md-4   align-self-center text-center card p-5   text-dark pt-4 pb-4">
+          <img class="rounded-circle   align-self-center  img-fluid  "
+            style="max-width:150px;"
+            src=" img/agent-4.png">
+            <blockquote class="blockquote blockquote-reverse mt-5">
+              <p>"Sed ut perspiciatis unde iste natus error sit voluptatem doloremque laudantium totam aperiam, ea
+                  que ipsa quae ab inventore veritatis et quasi."</p>
+              <p style="color:#D00F0F;""><strong>Rick Nelson</strong></p>
+                <h5 style="color: #17CBC3;">Student</h5>
+            </blockquote>
+        </div>
+      </div>
+    </div>
+</section>
+<!-- SUBSCRIBE -->
+<section class="pt-5 pb-5 bg-light">
+    <div class="container">
+      <div class="row d-flex">
+        <div class="col-md-12">
+          <div class="card border-0 bg-light ">
+            <div class="card-body p-4">
+              <div class="row d-flex equal align-items-center">
+                <div class="col-md-12 text-center">
+                  <h4 class="pb-2 h3 mb-1 mt-1   ">SUBSCRIBE TO OUR NEWSLETTER !
+                </h4>
+                  <p class=" " style="color: #b3b7b6;">Duis aute irure dolor in reprehenderit in voluptate velit esse<br>
+                    cillum dolore eu fugiat nulla pariatur.
+                  </p><br>
+                </div>
+                <div class="col-md-12  text-center">
+                    <div class=" mt-q mb-1 ">
+                        <div class="input-group mb-3 start-50 translate-middle  w-50">
+                            <input type="text " class="text-center form-control form-control-lg" placeholder="Enter Your Email " >
+                            <button class="btn btn-dark btn-h fs-4 w-25" type="button "><strong>Send</strong></button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+<!--Contact Us-->
+<section class="pt-5 pb-5">
+    
+    <div class="container">
+      <div class="row text-center justify-content-center">
+        <div class="col-12 col-md-8 col-lg-7">
+          <h3 class="display-4 fw-bold">Contact Us</h3>
+          <br>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg ">
+          <form>
+            <div class="row">
+              <div class="col">
+                <input type="email" class="form-control"
+                  placeholder="Enter email">
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col">
+                <input type="email" class="form-control"
+                  placeholder="Subject">
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col">
+                <textarea class="form-control border-secondary" name="message"
+                  rows="3" placeholder="How can we help?"
+                  spellcheck="false"></textarea><br>
+              </div>
+            </div>
+              <div class="col">
+                <button type="submit"
+                  class="btn btn-primary btn-lg">Submit</button>
+              </div>
+            
+          </form>
+        </div>
+        <div class="col-12 col-md-6 col-lg pt-5 m-auto pt-lg-0">
+            <iframe class="mb-4" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d798.1344707576466!2d43.05598882918!3d36.853542071859735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzbCsDUxJzEyLjgiTiA0M8KwMDMnMjMuNSJF!5e0!3m2!1sen!2sus!4v1626631084951!5m2!1sen!2sus" width="100%" height="200px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          
+          <p><strong>Duhok/iraq</strong></p>
+          <p>
+            V334+CJ Duhok
+            <br>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+<!--Footer-->
+    <section class="mb-0 mt-0 ">
+        <div class="footer text-light ">
+            <div class=" bg-dark pt-5 pb-5 ">
+                <div class="container ">
+                    <div class="row ">
+                        <div class="col-md-4 ">
+                            <a href="#!">
+                                <img class="d-block mb-4 " width="120px" height="80px " viewBox="0 0 612 612 " src="img/logohousell.png"  focusable="false ">
+                            </a>
+                            <address class="color-light-20 ">
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    <br>
+                    <br>
+                    <div class="mb-1 mr-3 align-self-right pt-0 d-inline-block ">
+                      
+          <a class="btn btn-outline-light btn-floating " href="https://www.facebook.com/blndmustafa1" role="button"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+       <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/BlndMustafa1" role="button"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+       <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/bilindmustafa/" role="button"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+       <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/bilind-mustafa-646213175/" role="button"><i class="fa fa-linkedin-square" aria-hidden="true"></i> </a>
+       <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/bilindM" role="button"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    </div>
+                        </div>
+                        <div class="col-md-4">
+                            <h4 class="my-2 ">QUICK LINKS</h4>
+                            <ul class="list-unstyled list-light ul">
+                                <li class="mt-1"><a href="# "><i class="fa fa-chevron-right" aria-hidden="true"></i>Need help ? Contact us</a></li>
+                                <li class="mt-1"><a href="# "><i class="fa fa-chevron-right" aria-hidden="true"></i> Book your appointment</a> </li>
+                                <li class="mt-1"><a href="# "><i class="fa fa-chevron-right" aria-hidden="true"></i> Create your property</a></li>
+                                <li class="mt-1"><a href="# "><i class="fa fa-chevron-right" aria-hidden="true"></i>Properies for rent</a></li> 
+                                <li class="mt-1"><a href="# "><i class="fa fa-chevron-right" aria-hidden="true"></i>Properies for sale</a></li>
+                                <li class="mt-1"><a href="# "><i class="fa fa-chevron-right" aria-hidden="true"></i>Our latest news</a></li> 
+                                <li class="mt-1"><a href="# "><i class="fa fa-chevron-right" aria-hidden="true"></i>Princing Tables</a></li>
+                                <li class="mt-1"><a href="# "><i class="fa fa-chevron-right" aria-hidden="true"></i>About us page</a></li>
+                                
+                            </ul>
+                        </div>
+                    
+                        <div class="col-md-4 ">
+                            <h4 class="my-2 ">Connect</h4>
+                            <ul class="list-unstyled list-light ul">
+                                <li>
+                                    <a href="# ">Support</a>
+                                </li>
+                                <li>
+                                    <a href="# ">Social</a>
+                                </li>
+                                <li>
+                                    <a href="# ">Community</a>
+                                </li>
+                            </ul>
+                            <p class="color-light mt-2 ">Stay up-to-date!</p>
+                            <form>
+                                <div class="form-group ">
+                                    <div class="input-group mb-3 ">
+                                        <input type="text " class="form-control form-control-sm " placeholder="Email " aria-label="Email " aria-describedby="basic-addon2 ">
+                                        <button class="btn btn-primary btn-sm " type="button ">Ok</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row f-flex justify-content-between " style=" ">
+                        <div class="col-md-8 text-xs-center text-left text-secondary my-1 ">
+                            <p class="mt-2 text-light "> © Copyright 2021 • All Rights Reserved |
+                                <a class="ul " href="# ">Bilind</a> 
+                            </p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/jquery.min.js "></script>
+    <script src="js/popper.min.js "></script>
+    <script src="js/poppr.min.js "></script>
+    <script src="js/bootstrap.min.js "></script>
+    <script src="js/bootstrap.js "></script>
+</body>
+
+</html>
